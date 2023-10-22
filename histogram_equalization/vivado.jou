@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sun Oct 22 16:06:12 2023
+# Process ID: 504
+# Current directory: C:/Users/ezgi/OneDrive - metu.edu.tr/Masaüstü/Yeni klasör/histogram_equalization
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7328 C:\Users\ezgi\OneDrive - metu.edu.tr\Masaüstü\Yeni klasör\histogram_equalization\histogram_equalization.xpr
+# Log file: C:/Users/ezgi/OneDrive - metu.edu.tr/Masaüstü/Yeni klasör/histogram_equalization/vivado.log
+# Journal file: C:/Users/ezgi/OneDrive - metu.edu.tr/Masaüstü/Yeni klasör/histogram_equalization\vivado.jou
+# Running On: DESKTOP-872B1K1, OS: Windows, CPU Frequency: 2208 MHz, CPU Physical cores: 6, Host memory: 8419 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/ezgi/OneDrive - metu.edu.tr/Masaüstü/Yeni klasör/histogram_equalization/histogram_equalization.xpr}
+update_compile_order -fileset sources_1

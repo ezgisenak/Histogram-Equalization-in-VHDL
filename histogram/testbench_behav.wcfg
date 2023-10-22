@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="110,859.666 ns"></ZoomStartTime>
+      <ZoomEndTime time="111,028.067 ns"></ZoomEndTime>
+      <Cursor1Time time="111,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="198"></NameColumnWidth>
+      <ValueColumnWidth column_width="136"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/testbench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/pixel_in" type="array">
+      <obj_property name="ElementShortName">pixel_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel_in[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/UUT/bram_addr_rd" type="array">
+      <obj_property name="ElementShortName">bram_addr_rd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_addr_rd[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/UUT/bram_dout" type="array">
+      <obj_property name="ElementShortName">bram_dout[13:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_dout[13:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/histogram" type="array">
+      <obj_property name="ElementShortName">histogram[13:0]</obj_property>
+      <obj_property name="ObjectShortName">histogram[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/finished" type="logic">
+      <obj_property name="ElementShortName">finished</obj_property>
+      <obj_property name="ObjectShortName">finished</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/read_finished" type="logic">
+      <obj_property name="ElementShortName">read_finished</obj_property>
+      <obj_property name="ObjectShortName">read_finished</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/start_finished" type="logic">
+      <obj_property name="ElementShortName">start_finished</obj_property>
+      <obj_property name="ObjectShortName">start_finished</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/valid" type="logic">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/reset_sig" type="logic">
+      <obj_property name="ElementShortName">reset_sig</obj_property>
+      <obj_property name="ObjectShortName">reset_sig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/ADDR_WIDTH" type="other">
+      <obj_property name="ElementShortName">ADDR_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">ADDR_WIDTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DATA_WIDTH" type="other">
+      <obj_property name="ElementShortName">DATA_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/IMAGE_SIZE" type="other">
+      <obj_property name="ElementShortName">IMAGE_SIZE</obj_property>
+      <obj_property name="ObjectShortName">IMAGE_SIZE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/UUT/bram_we" type="logic">
+      <obj_property name="ElementShortName">bram_we</obj_property>
+      <obj_property name="ObjectShortName">bram_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/UUT/STATE" type="other">
+      <obj_property name="ElementShortName">STATE</obj_property>
+      <obj_property name="ObjectShortName">STATE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/UUT/bram_addr_wr" type="array">
+      <obj_property name="ElementShortName">bram_addr_wr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_addr_wr[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/UUT/bram_din" type="array">
+      <obj_property name="ElementShortName">bram_din[13:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_din[13:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/UUT/prev_din" type="array">
+      <obj_property name="ElementShortName">prev_din[13:0]</obj_property>
+      <obj_property name="ObjectShortName">prev_din[13:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/UUT/cnt" type="other">
+      <obj_property name="ElementShortName">cnt</obj_property>
+      <obj_property name="ObjectShortName">cnt</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/UUT/temp_addr_buffer" type="array">
+      <obj_property name="ElementShortName">temp_addr_buffer[31:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_addr_buffer[31:0]</obj_property>
+   </wvobject>
+</wave_config>

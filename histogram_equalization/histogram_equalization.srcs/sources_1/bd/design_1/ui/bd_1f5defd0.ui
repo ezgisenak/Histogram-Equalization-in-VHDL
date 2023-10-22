@@ -1,0 +1,20 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.25",
+   "Default View_TopLeft":"-250,-138",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace inst fifo_generator_0 -pg 1 -lvl 1 -x 170 -y -80 -defaultsOSRD
+preplace inst Histogram_0 -pg 1 -lvl 1 -x 170 -y 370 -defaultsOSRD
+preplace inst clk_wiz -pg 1 -lvl 1 -x 170 -y 60 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 1 -x 170 -y 180 -defaultsOSRD
+preplace netloc clk_wiz_clk_out1 1 0 2 0 -170 340J
+preplace netloc clk_wiz_1_clk_out1 1 0 2 -10 -180 350J
+levelinfo -pg 1 -30 170 370
+pagesize -pg 1 -db -bbox -sgen -30 -360 370 510
+"
+}
+{
+   "da_clkrst_cnt":"3"
+}

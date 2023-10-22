@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="44.233038 us"></ZoomStartTime>
+      <ZoomEndTime time="1,314.353132 us"></ZoomEndTime>
+      <Cursor1Time time="258.095000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="253"></NameColumnWidth>
+      <ValueColumnWidth column_width="113"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="25" />
+   <wvobject fp_name="/testbench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/histogram" type="array">
+      <obj_property name="ElementShortName">histogram[14:0]</obj_property>
+      <obj_property name="ObjectShortName">histogram[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/count" type="other">
+      <obj_property name="ElementShortName">count</obj_property>
+      <obj_property name="ObjectShortName">count</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/finished" type="logic">
+      <obj_property name="ElementShortName">finished</obj_property>
+      <obj_property name="ObjectShortName">finished</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/read_finished" type="logic">
+      <obj_property name="ElementShortName">read_finished</obj_property>
+      <obj_property name="ObjectShortName">read_finished</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/start_finished" type="logic">
+      <obj_property name="ElementShortName">start_finished</obj_property>
+      <obj_property name="ObjectShortName">start_finished</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/total_finished" type="logic">
+      <obj_property name="ElementShortName">total_finished</obj_property>
+      <obj_property name="ObjectShortName">total_finished</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/equalization_finished" type="logic">
+      <obj_property name="ElementShortName">equalization_finished</obj_property>
+      <obj_property name="ObjectShortName">equalization_finished</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/summation_finished" type="logic">
+      <obj_property name="ElementShortName">summation_finished</obj_property>
+      <obj_property name="ObjectShortName">summation_finished</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/valid" type="logic">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/reset_sig" type="logic">
+      <obj_property name="ElementShortName">reset_sig</obj_property>
+      <obj_property name="ObjectShortName">reset_sig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/pixel_count" type="other">
+      <obj_property name="ElementShortName">pixel_count</obj_property>
+      <obj_property name="ObjectShortName">pixel_count</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/fifo_rd_en" type="logic">
+      <obj_property name="ElementShortName">fifo_rd_en</obj_property>
+      <obj_property name="ObjectShortName">fifo_rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/fifo_wr_en" type="logic">
+      <obj_property name="ElementShortName">fifo_wr_en</obj_property>
+      <obj_property name="ObjectShortName">fifo_wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/fifo_data_out" type="array">
+      <obj_property name="ElementShortName">fifo_data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_data_out[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/UUT/STATE" type="other">
+      <obj_property name="ElementShortName">STATE</obj_property>
+      <obj_property name="ObjectShortName">STATE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/pixel_in" type="array">
+      <obj_property name="ElementShortName">pixel_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel_in[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/UUT/bram_addr_rd" type="array">
+      <obj_property name="ElementShortName">bram_addr_rd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_addr_rd[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/UUT/bram_dout" type="array">
+      <obj_property name="ElementShortName">bram_dout[14:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_dout[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/pixel_equalized" type="array">
+      <obj_property name="ElementShortName">pixel_equalized[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel_equalized[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/fifo_data_in" type="array">
+      <obj_property name="ElementShortName">fifo_data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_data_in[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/UUT/bram_addr_wr" type="array">
+      <obj_property name="ElementShortName">bram_addr_wr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_addr_wr[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/UUT/bram_din" type="array">
+      <obj_property name="ElementShortName">bram_din[14:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_din[14:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/UUT/bram_we" type="logic">
+      <obj_property name="ElementShortName">bram_we</obj_property>
+      <obj_property name="ObjectShortName">bram_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/UUT/sum" type="array">
+      <obj_property name="ElementShortName">sum[14:0]</obj_property>
+      <obj_property name="ObjectShortName">sum[14:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
